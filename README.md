@@ -9,6 +9,7 @@ The project was built using the React framework using the following technologies
 * JavaScript
 * Tailwind CSS
 * Firebase
+* Google Maps API
 * Vercel (for deployment)
 
 Note: I originally worked on the project in a different repo, but made a new one without the API keys so that I can make it public.
