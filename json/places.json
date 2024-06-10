@@ -1,0 +1,42 @@
+[
+  {
+    "img": "https://links.papareact.com/5j2",
+    "location": "London",
+    "search": "/search?location=%7B%22description%22%3A%22London%2C+UK%22%2C%22placeId%22%3A%22ChIJdd4hrwug2EcRmSrV3Vo6llI%22%2C%22active%22%3Atrue%2C%22index%22%3A0%2C%22formattedSuggestion%22%3A%7B%22mainText%22%3A%22London%22%2C%22secondaryText%22%3A%22UK%22%7D%2C%22matchedSubstrings%22%3A%5B%7B%22length%22%3A6%2C%22offset%22%3A0%7D%5D%2C%22terms%22%3A%5B%7B%22offset%22%3A0%2C%22value%22%3A%22London%22%7D%2C%7B%22offset%22%3A8%2C%22value%22%3A%22UK%22%7D%5D%2C%22types%22%3A%5B%22locality%22%2C%22political%22%2C%22geocode%22%5D%7D&noOfGuests=1&fullLocation=London%2C+UK"
+  },
+  {
+    "img": "https://links.papareact.com/1to",
+    "location": "Manchester",
+    "search": "/search?location=%7B%22description%22%3A%22Manchester%2C+UK%22%2C%22placeId%22%3A%22ChIJ2_UmUkxNekgRqmv-BDgUvtk%22%2C%22active%22%3Atrue%2C%22index%22%3A0%2C%22formattedSuggestion%22%3A%7B%22mainText%22%3A%22Manchester%22%2C%22secondaryText%22%3A%22UK%22%7D%2C%22matchedSubstrings%22%3A%5B%7B%22length%22%3A5%2C%22offset%22%3A0%7D%5D%2C%22terms%22%3A%5B%7B%22offset%22%3A0%2C%22value%22%3A%22Manchester%22%7D%2C%7B%22offset%22%3A12%2C%22value%22%3A%22UK%22%7D%5D%2C%22types%22%3A%5B%22locality%22%2C%22political%22%2C%22geocode%22%5D%7D&noOfGuests=1&fullLocation=Manchester%2C+UK"
+  },
+  {
+    "img": "https://links.papareact.com/40m",
+    "location": "Liverpool",
+    "search": "/search?location=%7B%22description%22%3A%22Liverpool%2C+UK%22%2C%22placeId%22%3A%22ChIJt2BwZIrfekgRAW4XP28E3EI%22%2C%22active%22%3Atrue%2C%22index%22%3A1%2C%22formattedSuggestion%22%3A%7B%22mainText%22%3A%22Liverpool%22%2C%22secondaryText%22%3A%22UK%22%7D%2C%22matchedSubstrings%22%3A%5B%7B%22length%22%3A5%2C%22offset%22%3A0%7D%5D%2C%22terms%22%3A%5B%7B%22offset%22%3A0%2C%22value%22%3A%22Liverpool%22%7D%2C%7B%22offset%22%3A11%2C%22value%22%3A%22UK%22%7D%5D%2C%22types%22%3A%5B%22locality%22%2C%22political%22%2C%22geocode%22%5D%7D&noOfGuests=1&fullLocation=Liverpool%2C+UK"
+  },
+  {
+    "img": "https://links.papareact.com/msp",
+    "location": "York",
+    "search": "/search?location=%7B%22description%22%3A%22York%2C+UK%22%2C%22placeId%22%3A%22ChIJ8WWY4UDDeEgR0eRUiomrdEc%22%2C%22active%22%3Atrue%2C%22index%22%3A1%2C%22formattedSuggestion%22%3A%7B%22mainText%22%3A%22York%22%2C%22secondaryText%22%3A%22UK%22%7D%2C%22matchedSubstrings%22%3A%5B%7B%22length%22%3A4%2C%22offset%22%3A0%7D%5D%2C%22terms%22%3A%5B%7B%22offset%22%3A0%2C%22value%22%3A%22York%22%7D%2C%7B%22offset%22%3A6%2C%22value%22%3A%22UK%22%7D%5D%2C%22types%22%3A%5B%22locality%22%2C%22political%22%2C%22geocode%22%5D%7D&noOfGuests=1&fullLocation=York%2C+UK"
+  },
+  {
+    "img": "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-alon.appspot.com/o/places%2F42901911-940b-45ac-997e-961ebf472195.webp?alt=media&token=5a2d1713-def4-47d7-9bda-1eda34d50dfd",
+    "location": "Cardiff",
+    "search": "/search?location=%7B%22description%22%3A%22Cardiff%2C+UK%22%2C%22placeId%22%3A%22ChIJ9VPsNNQCbkgRDmeGZdsGNBQ%22%2C%22active%22%3Afalse%2C%22index%22%3A0%2C%22formattedSuggestion%22%3A%7B%22mainText%22%3A%22Cardiff%22%2C%22secondaryText%22%3A%22UK%22%7D%2C%22matchedSubstrings%22%3A%5B%7B%22length%22%3A4%2C%22offset%22%3A0%7D%5D%2C%22terms%22%3A%5B%7B%22offset%22%3A0%2C%22value%22%3A%22Cardiff%22%7D%2C%7B%22offset%22%3A9%2C%22value%22%3A%22UK%22%7D%5D%2C%22types%22%3A%5B%22locality%22%2C%22political%22%2C%22geocode%22%5D%7D&noOfGuests=1&fullLocation=Cardiff%2C+UK"
+  },
+  {
+    "img": "https://links.papareact.com/ynx",
+    "location": "Birkenhead",
+    "search": "/search?location=%7B%22description%22%3A%22Birkenhead%2C+UK%22%2C%22placeId%22%3A%22ChIJH_Wc0EUme0gRSrEunMWouJo%22%2C%22active%22%3Atrue%2C%22index%22%3A0%2C%22formattedSuggestion%22%3A%7B%22mainText%22%3A%22Birkenhead%22%2C%22secondaryText%22%3A%22UK%22%7D%2C%22matchedSubstrings%22%3A%5B%7B%22length%22%3A6%2C%22offset%22%3A0%7D%5D%2C%22terms%22%3A%5B%7B%22offset%22%3A0%2C%22value%22%3A%22Birkenhead%22%7D%2C%7B%22offset%22%3A12%2C%22value%22%3A%22UK%22%7D%5D%2C%22types%22%3A%5B%22locality%22%2C%22political%22%2C%22geocode%22%5D%7D&noOfGuests=1&fullLocation=Birkenhead%2C+UK"
+  },
+  {
+    "img": "https://links.papareact.com/kji",
+    "location": "Newquay",
+    "search": "/search?location=%7B%22description%22%3A%22Newquay%2C+UK%22%2C%22placeId%22%3A%22ChIJh1a5WhEMa0gRY1JU4PEam8Q%22%2C%22active%22%3Atrue%2C%22index%22%3A0%2C%22formattedSuggestion%22%3A%7B%22mainText%22%3A%22Newquay%22%2C%22secondaryText%22%3A%22UK%22%7D%2C%22matchedSubstrings%22%3A%5B%7B%22length%22%3A6%2C%22offset%22%3A0%7D%5D%2C%22terms%22%3A%5B%7B%22offset%22%3A0%2C%22value%22%3A%22Newquay%22%7D%2C%7B%22offset%22%3A9%2C%22value%22%3A%22UK%22%7D%5D%2C%22types%22%3A%5B%22locality%22%2C%22political%22%2C%22geocode%22%5D%7D&noOfGuests=1&fullLocation=Newquay%2C+UK"
+  },
+  {
+    "img": "https://links.papareact.com/41m",
+    "location": "Hove",
+    "search": "/search?location=%7B%22description%22%3A%22Hove%2C+UK%22%2C%22placeId%22%3A%22ChIJ24FB81OFdUgRKxfjNM_q-2g%22%2C%22active%22%3Atrue%2C%22index%22%3A0%2C%22formattedSuggestion%22%3A%7B%22mainText%22%3A%22Hove%22%2C%22secondaryText%22%3A%22UK%22%7D%2C%22matchedSubstrings%22%3A%5B%7B%22length%22%3A4%2C%22offset%22%3A0%7D%5D%2C%22terms%22%3A%5B%7B%22offset%22%3A0%2C%22value%22%3A%22Hove%22%7D%2C%7B%22offset%22%3A6%2C%22value%22%3A%22UK%22%7D%5D%2C%22types%22%3A%5B%22locality%22%2C%22political%22%2C%22geocode%22%5D%7D&noOfGuests=1&fullLocation=Hove%2C+UK"
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@badrap/bar-of-progress": "^0.1.2",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@heroicons/react": "^1.0.5",
+    "@mui/material": "^5.3.1",
+    "date-and-time": "^3.0.2",
+    "date-fns": "^2.28.0",
+    "firebase": "^9.6.4",
+    "geolib": "^3.3.3",
+    "joi-browser": "^13.4.0",
+    "lodash": "^4.17.21",
+    "next": "^12.0.9",
+    "next-nprogress": "^1.4.0",
+    "nextjs-progressbar": "0.0.13",
+    "progress": "^2.0.3",
+    "react": "^17.0.2",
+    "react-date-range": "^1.4.0",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.5.3",
+    "react-geocode": "^0.2.3",
+    "react-map-gl": "^6.1.18",
+    "react-places-autocomplete": "^7.3.0",
+    "react-switch": "^7.0.0",
+    "react-transition-group": "^4.4.2",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.178",
+    "@types/node": "17.0.4",
+    "@types/react": "17.0.38",
+    "@types/react-date-range": "^1.4.4",
+    "@types/react-places-autocomplete": "^7.2.9",
+    "autoprefixer": "^10.4.0",
+    "json-loader": "^0.5.7",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7",
+    "transform-loader": "^0.2.4",
+    "typescript": "4.5.4",
+    "webworkify-webpack": "^1.0.6"
+  }
+}

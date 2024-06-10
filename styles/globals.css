@@ -1,0 +1,431 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply px-4 sm:m-0 ml-2 mt-2 py-2 border rounded-full cursor-pointer hover:shadow-lg active:scale-95 active:bg-gray-100 transition transform duration-100 ease-out;
+  }
+  .nav-link {
+    @apply w-[100%] hover:bg-gray-100 px-4 py-2.5 cursor-pointer text-gray-600;
+  }
+  .input-log {
+    @apply outline-none flex-grow pt-5 pb-3 first-of-type:rounded-t-md last-of-type:rounded-b-md;
+  }
+  .input-container {
+    @apply flex items-center px-4 relative border border-gray-400 first-of-type:rounded-t-md last-of-type:rounded-b-md;
+  }
+  .property-type {
+    @apply px-5 py-5 mb-5 first-of-type:mt-3  outline outline-1 hover:outline-[3px] hover:outline-slate-900 outline-gray-300 border-4 border-transparent cursor-pointer box-border rounded-xl flex items-center justify-between w-1/2 font-semibold text-xl;
+  }
+  .property-image {
+    @apply relative h-16 w-16;
+  }
+}
+
+.flexible {
+  font-size: 16px;
+  background: linear-gradient(90deg, #6f019c 0%, #c6017e 135.12%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 640px) {
+  .rdrDefinedRangesWrapper {
+    display: none;
+  }
+}
+
+.modal {
+  outline: none;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.modal-child {
+  position: absolute;
+  background: white;
+  outline: none;
+  max-height: 80vh;
+  width: 500px;
+  border-radius: 15px;
+}
+
+.modal-child2 {
+  position: absolute;
+  background: white;
+  outline: none;
+  width: 550px;
+  border-radius: 15px;
+  overflow-y: scroll;
+  max-height: 80vh;
+}
+
+@media screen and (max-width: 550px) {
+  .modal-child {
+    width: 400px;
+  }
+
+  .modal-child2 {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .modal-child {
+    width: 300px;
+  }
+
+  .modal-child2 {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .modal-child {
+    width: 250px;
+  }
+
+  .modal-child2 {
+    width: 250px;
+  }
+}
+
+.continue-btn {
+  background-image: radial-gradient(
+    circle at center center,
+    rgb(255, 56, 92) 0%,
+    rgb(230, 30, 77) 27.5%,
+    rgb(227, 28, 95) 40%,
+    rgb(215, 4, 102) 57.5%,
+    rgb(189, 30, 89) 75%,
+    rgb(189, 30, 89) 100%
+  ) !important;
+  background-size: 200% 200% !important;
+}
+
+.continue-btn:active {
+  background: #f43f5e !important;
+}
+
+.wishlist-exit {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.wishlist-exit.wishlist-exit-active {
+  opacity: 0.01;
+  transform: translate(0, 10px);
+  transition: all 1s ease-in;
+}
+
+.wishlist-exit-done {
+  opacity: 0;
+}
+
+.host-gradient {
+  background: rgb(207, 38, 122);
+  background: linear-gradient(
+    180deg,
+    rgba(207, 38, 122, 1) 25%,
+    rgba(69, 29, 163, 1) 85%
+  );
+}
+
+.price::-webkit-outer-spin-button,
+.price::-webkit-inner-spin-button {
+  display: none;
+}
+
+.delete:hover {
+  background: #db1616;
+  color: white !important;
+}
+
+.delete {
+  margin-right: 15px;
+}
+
+.gradient-book {
+  background: rgb(230, 30, 79);
+  background: linear-gradient(
+    79deg,
+    rgba(230, 30, 79, 1) 35%,
+    rgba(191, 0, 87, 1) 100%
+  );
+}
+.no-bottom-border {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+@media (min-width: 1024px) {
+  .grid-room {
+    grid-template-columns: 65% 35%;
+  }
+}
+
+@media (min-width: 930px) {
+  .display-search {
+    display: inline-flex;
+  }
+}
+
+@media (min-width: 700px) {
+  .room-show {
+    display: flex !important;
+  }
+  .room-hide {
+    display: none !important;
+  }
+}
+
+.grid-room-2 {
+  display: grid;
+  grid-template-columns: 0.6fr 0.4fr;
+  grid-template-rows: 1fr;
+  gap: 0.5rem;
+}
+
+.grid-room-3 {
+  display: grid;
+  grid-template-columns: 0.6fr 0.4fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.grid-room-4 {
+  display: grid;
+  grid-template-columns: 0.5fr 0.25fr 0.25fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.grid-room-5 {
+  display: grid;
+  grid-template-columns: 0.5fr 0.25fr 0.25fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.rounded-top-right {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+}
+
+.rounded-top-left {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.rounded-bottom-left {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.rounded-bottom-right {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+:hover.color-hover {
+  background-color: rgba(255, 255, 255, 0.327);
+}
+
+@media (max-width: 260px) {
+  .room-photos-px {
+    bottom: -20vw !important;
+  }
+}
+
+@media (min-width: 670px) {
+  .room-photos-px {
+    bottom: 15vw !important;
+  }
+}
+
+@media (max-width: 300px) and (min-width: 260px) {
+  .room-photos-px {
+    bottom: 0 !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .show-photos-big {
+    right: 8rem !important;
+  }
+}
+
+@media (min-width: 1300px) {
+  .show-photos-big {
+    right: 12rem !important;
+  }
+}
+
+@media (max-width: 370px) {
+  .width-book-room {
+    left: -5vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .width-book-room {
+    left: 0;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .width-book-room {
+    width: 65%;
+  }
+}
+
+@media (min-width: 700px) {
+  .grid-room-loading {
+    display: grid;
+    grid-template-columns: 0.5fr 0.25fr 0.25fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+  .grid-room-loading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+}
+
+.margin-left-zero {
+  margin-left: 0 !important;
+}
+
+.letter-space {
+  letter-spacing: -0.07rem;
+}
+
+@font-face {
+  font-family: airbnb-cereal;
+  src: url(../public/airbnb-cereal/AirbnbCereal_100.otf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: airbnb-cereal;
+  src: url(../public/airbnb-cereal/AirbnbCereal_200.otf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: airbnb-cereal;
+  src: url(../public/airbnb-cereal/AirbnbCereal_400.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: airbnb-cereal;
+  src: url(../public/airbnb-cereal/AirbnbCereal_500.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: airbnb-cereal;
+  src: url(../public/airbnb-cereal/AirbnbCereal_600.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: airbnb-cereal;
+  src: url(../public/airbnb-cereal/AirbnbCereal_700.otf);
+  font-weight: 700;
+}
+
+.airbnb-cereal {
+  font-family: airbnb-cereal;
+}
+
+.listing-modal {
+}
+
+@media (min-width: 768px) {
+  .listing-modal {
+    width: 35rem !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .listing-modal {
+    width: 47.5rem !important;
+  }
+}
+
+@media (max-width: 340px) {
+  .cancel-button-div {
+    flex-direction: column !important;
+    gap: 7.5px;
+    align-items: start;
+  }
+}
+
+.scroll-snap {
+  scroll-snap-type: inline mandatory;
+}
+
+.listings-scroller {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 32.1666667% 32.1666667% 32.1666667%;
+  gap: 1.75%;
+}
+
+.listings-scroller > * {
+  scroll-snap-align: start;
+}
+
+.reviews-scroller {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 49.125% 49.125%;
+  gap: 1.75%;
+}
+
+.reviews-scroller > * {
+  scroll-snap-align: start;
+}
+
+@media (max-width: 640px) {
+  .reviews-scroller {
+    grid-auto-columns: 99.125%;
+  }
+  .listings-scroller {
+    grid-auto-columns: 47.75% 47.75%;
+    gap: 3%;
+  }
+}
+
+@media (max-width: 400px) {
+  .listings-scroller {
+    grid-auto-columns: 98%;
+    gap: 4%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-search {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media (min-width: 1180px) {
+  .grid-search {
+    display: grid;
+    grid-template-columns: 62% 38%;
+  }
+}
+
+.height-map {
+  height: calc(100vh - 6.8rem);
+}
